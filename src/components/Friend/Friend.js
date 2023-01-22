@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import Friends from '../Friends/Friends';
+
 
 const Friend = (props) => {
     const { name, username, id } = props.friend;
